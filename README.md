@@ -1,2 +1,0 @@
-# LivingMetaAnalysisAPI
-Final year project
