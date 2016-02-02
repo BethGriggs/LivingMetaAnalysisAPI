@@ -13,11 +13,8 @@ storage/
 .env
 .env.example
 
-
+# PHP Storm ignore files
+*.iml
 .idea/
-.idea/copyright/profiles_settings.xml
-
-.idea/vcs.xml
-
 .idea/workspace.xml
 
