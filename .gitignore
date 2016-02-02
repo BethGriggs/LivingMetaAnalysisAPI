@@ -12,3 +12,11 @@ storage/
 .env.php
 .env
 .env.example
+
+
+.idea/copyright/profiles_settings.xml
+
+.idea/vcs.xml
+
+.idea/workspace.xml
+
