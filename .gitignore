@@ -12,8 +12,3 @@ storage/
 .env.php
 .env
 .env.example
-
-# PHP Storm ignore files
-*.iml
-.idea/
-
