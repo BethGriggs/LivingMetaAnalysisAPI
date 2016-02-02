@@ -16,5 +16,4 @@ storage/
 # PHP Storm ignore files
 *.iml
 .idea/
-.idea/workspace.xml
 
