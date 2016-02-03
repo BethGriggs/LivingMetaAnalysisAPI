@@ -11,10 +11,11 @@
 |
 */
 
+Route::get('/', function(){ return view('home');}) ;
 Route::resource('articles', 'ArticlesController');
 Route::resource('study', 'StudyController');
 
 Route::controllers([
-    'auth' => 'Auth\AuthController', 
+    'auth' => 'Auth\AuthController',
     'password' => 'Auth\PasswordController'
 ]);

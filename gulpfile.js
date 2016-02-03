@@ -12,10 +12,11 @@ var elixir = require('laravel-elixir');
  */
 
 elixir(function(mix) {
-
-    mix.styles([
-        'vendor/bootstrap.min.css',
-        'vendor/select2.min.css',
-        'app.css'
-    ], 'public/output/final.css', 'public/css');
+//     var jQueryPath = 'resources/assets/vendor/jquery-2.2.0.min.js';
+//     var bootstrapPath = 'node_modules/bootstrap-sass/assets';
+//
+    mix.sass('app.css');
+//       .copy(jQueryPath, 'public/js')
+//       .copy(bootstrapPath + '/fonts', 'public/fonts')
+//       .copy(bootstrapPath + '/javascripts/bootstrap.min.js', 'public/js');
 });

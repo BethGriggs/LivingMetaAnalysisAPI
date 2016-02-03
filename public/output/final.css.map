@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA;AACA;AACA;AACA;AACA;AACA;AACA;AACA","file":"final.css","sourcesContent":["body {\n  padding-top: 60px; }\n\nbody, label, .checkbox label {\n  font-weight: 300; }\n\n/*# sourceMappingURL=app.css.map */\n"],"sourceRoot":"/source/"}

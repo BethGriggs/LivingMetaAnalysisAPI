@@ -4,4 +4,20 @@ body {
 body, label, .checkbox label {
   font-weight: 300; }
 
+#container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.navbar  {
+  background-color: #00bcd4;
+}
+
+.home-button {
+  width: 15em;
+  padding: 2em;
+  margin-left: 2em;
+  margin-right: 2em;
+  margin-bottom: 2em;
+}
+
 /*# sourceMappingURL=app.css.map */
