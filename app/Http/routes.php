@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', function(){ return view('home');}) ;
+Route::get('/home', function(){ return view('home');}) ;
 Route::resource('articles', 'ArticlesController');
 Route::resource('study', 'StudyController');
 

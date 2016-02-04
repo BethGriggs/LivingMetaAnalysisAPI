@@ -14,8 +14,8 @@
     </div>
     <div class="row">
       <div class="col-sm-6">
-              <button class="home-button">
-                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Add Data
+              <button class="home-button" href="/study/create">
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>Add Study Data
               </button>
               <button class="home-button">
                 <span class="glyphicon glyphicon-search" aria-hidden="true"></span>Browse
