@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Document</title>
+    <title>LivingMetaAnalysis - Login</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="{{ asset('css/app.css') }}" type="text/css">
     </head>
@@ -29,7 +29,7 @@
       								<form id="login-form" action="/auth/login" method="post" role="form" style="display: block;">
                         {!! csrf_field() !!}
                         <div class="form-group">
-      										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+      										<input type="text" name="name" id="name" tabindex="1" class="form-control" placeholder="name" value="">
       									</div>
       									<div class="form-group">
       										<input type="password" name="password" id="password" tabindex="2" class="form-control" placeholder="Password">
@@ -58,7 +58,7 @@
       								<form id="register-form" action="/auth/register" method="post" role="form" style="display: none;">
                         {!! csrf_field() !!}
                         <div class="form-group">
-      										<input type="text" name="username" id="username" tabindex="1" class="form-control" placeholder="Username" value="">
+      										<input type="text" name="name" id="name" tabindex="1" class="form-control" placeholder="name" value="">
       									</div>
       									<div class="form-group">
       										<input type="email" name="email" id="email" tabindex="1" class="form-control" placeholder="Email Address" value="">
@@ -107,8 +107,5 @@
 
         });
         </script>
-        @yield('footer')
     </body>
 </html>
-<form method="POST" action="/auth/login">
-    {!! csrf_field() !!}
